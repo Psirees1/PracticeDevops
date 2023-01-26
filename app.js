@@ -30,6 +30,8 @@ const server = http.createServer((req, res) => {
 }
 )
 
+//adding a comment to check the second commit
+
 server.listen(PORT, host, () => {
     console.log("The server is running On PORT:", PORT)
 })
